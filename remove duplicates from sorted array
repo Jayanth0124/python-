@@ -1,0 +1,6 @@
+from collections import OrderedDict
+
+arr = list(OrderedDict.fromkeys(sorted(map(int, input("Enter the array elements separated by space: ").split()))))
+print("Sorted Array = ", end="")
+for num in arr:
+    print(num, end=" ")
